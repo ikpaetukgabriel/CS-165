@@ -20,6 +20,11 @@ public:
    void setPosition(Point positionInput);
    void setEnergy(int energyInput);
 
+   void moveUp();
+   void moveDown();
+   void moveLeft();
+   void moveRight();
+
    void display() const;
 };
 

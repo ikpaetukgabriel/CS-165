@@ -90,7 +90,7 @@ void partIII()
 
 void stretch()
 {
-   /*
+
    // STRETCH PART I
    Robot robot;
 
@@ -103,44 +103,42 @@ void stretch()
 
       switch (command)
       {
-         case 'u':
-            cout << "Moving up...\n";
-            robot.moveUp();
-            break;
+      case 'u':
+         cout << "Moving up...\n";
+         robot.moveUp();
+         break;
 
-         case 'd':
-            cout << "Moving down...\n";
-            robot.moveDown();
-            break;
+      case 'd':
+         cout << "Moving down...\n";
+         robot.moveDown();
+         break;
 
-         case 'l':
-            cout << "Moving left...\n";
-            robot.moveLeft();
-            break;
+      case 'l':
+         cout << "Moving left...\n";
+         robot.moveLeft();
+         break;
 
-         case 'r':
-            cout << "Moving right...\n";
-            robot.moveRight();
-            break;
+      case 'r':
+         cout << "Moving right...\n";
+         robot.moveRight();
+         break;
 
-         case 'f':
-            cout << "Firing the laser!\n";
-            
-            // STRETCH PART II - Uncomment the next line
-            // robot.fireLaser();
-            break;
+      case 'f':
+         cout << "Firing the laser!\n";
 
-         default:
-            cout << "Command not recognized.\n";
-            break;
+         // STRETCH PART II - Uncomment the next line
+         // robot.fireLaser();
+         break;
+
+      default:
+         cout << "Command not recognized.\n";
+         break;
       }
 
       robot.display();
       cout << endl;
 
    } while (command != 'q');
-
-   */
 }
 
 int main()
