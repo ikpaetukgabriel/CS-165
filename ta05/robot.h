@@ -25,6 +25,8 @@ public:
    void moveLeft();
    void moveRight();
 
+   void fireLaser();
+
    void display() const;
 };
 

@@ -127,7 +127,7 @@ void stretch()
          cout << "Firing the laser!\n";
 
          // STRETCH PART II - Uncomment the next line
-         // robot.fireLaser();
+         robot.fireLaser();
          break;
 
       default:

@@ -53,7 +53,11 @@ void Robot::moveUp()
    int moveAmount = 1;
    int newPositionY;
 
-   if ((yCurrent + moveAmount) > 10)
+   int currentEnergy = getEnergy();
+   int moveEnergy = -10;
+   int newEnergy;
+
+   if (((yCurrent + moveAmount) > 10) || ((currentEnergy + moveEnergy) < 0))
    {
       return;
    }
@@ -61,6 +65,8 @@ void Robot::moveUp()
    {
       newPositionY = yCurrent + moveAmount;
       position.setY(newPositionY);
+      newEnergy = currentEnergy + moveEnergy;
+      setEnergy(newEnergy);
    }
 }
 
@@ -71,7 +77,11 @@ void Robot::moveDown()
    int moveAmount = -1;
    int newPositionY;
 
-   if ((yCurrent + moveAmount) < 1)
+   int currentEnergy = getEnergy();
+   int moveEnergy = -10;
+   int newEnergy;
+
+   if (((yCurrent + moveAmount) < 1) || ((currentEnergy + moveEnergy) < 0))
    {
       return;
    }
@@ -79,6 +89,8 @@ void Robot::moveDown()
    {
       newPositionY = yCurrent + moveAmount;
       position.setY(newPositionY);
+      newEnergy = currentEnergy + moveEnergy;
+      setEnergy(newEnergy);
    }
 }
 
@@ -89,7 +101,11 @@ void Robot::moveLeft()
    int moveAmount = -1;
    int newPositionX;
 
-   if ((xCurrent + moveAmount) < 1)
+   int currentEnergy = getEnergy();
+   int moveEnergy = -10;
+   int newEnergy;
+
+   if (((xCurrent + moveAmount) < 1) || ((currentEnergy + moveEnergy) < 0))
    {
       return;
    }
@@ -97,6 +113,8 @@ void Robot::moveLeft()
    {
       newPositionX = xCurrent + moveAmount;
       position.setX(newPositionX);
+      newEnergy = currentEnergy + moveEnergy;
+      setEnergy(newEnergy);
    }
 }
 
@@ -107,7 +125,11 @@ void Robot::moveRight()
    int moveAmount = 1;
    int newPositionX;
 
-   if ((xCurrent + moveAmount) > 10)
+   int currentEnergy = getEnergy();
+   int moveEnergy = -10;
+   int newEnergy;
+
+   if (((xCurrent + moveAmount) > 10) || ((currentEnergy + moveEnergy) < 0))
    {
       return;
    }
@@ -115,6 +137,28 @@ void Robot::moveRight()
    {
       newPositionX = xCurrent + moveAmount;
       position.setX(newPositionX);
+      newEnergy = currentEnergy + moveEnergy;
+      setEnergy(newEnergy);
+   }
+}
+
+void Robot::fireLaser()
+{
+   int robotEnergy = getEnergy();
+   int shootEnergy = -25;
+   int newEnergy;
+
+   if ((robotEnergy + shootEnergy) < 0)
+   {
+      cout << "Insufficient fuel to fire :(";
+      return;
+   }
+
+   else
+   {
+      newEnergy = robotEnergy + shootEnergy;
+      setEnergy(newEnergy);
+      cout << "Pew! Pew!";
    }
 }
 /************************************
