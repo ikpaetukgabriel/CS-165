@@ -7,7 +7,9 @@
 
 #include "product.h"
 // put your method bodies here
-
+/***************************************************************
+ * ADDRESS CLASS DEFAULT CONSTRUCTOR
+ ***************************************************************/
 Product ::Product()
 {
     setName("none");
@@ -15,6 +17,9 @@ Product ::Product()
     setWeight(0);
     setBasePrice(0);
 }
+/***************************************************************
+ * ADDRESS CLASS NON-DEFAULT CONSTRUCTOR
+ ***************************************************************/
 Product ::Product(string nameInput, string descriptionInput, double basePriceInput, double weightInput)
 {
     setName(nameInput);
@@ -200,37 +205,74 @@ void Product ::displayReceipt()
          << total << endl;
 }
 
+/***************************************************************
+ * GETNAME
+ * Purpose: Gets the value of name, the private member variable 
+ ***************************************************************/
 string Product::getName() const
 {
     return name;
 }
+/***************************************************************
+ * SETNAME
+ * Purpose: Sets, name, the private member variable 
+ ***************************************************************/
 void Product::setName(string nameInput)
 {
     name = nameInput;
 }
 
+/***************************************************************
+ * GETDESCRIPTION
+ * Purpose: Gets the value of description, the private member 
+ *          variable 
+ ***************************************************************/
 string Product::getDescription() const
 {
     return description;
 }
+
+/***************************************************************
+ * SETDESCRIPTION
+ * Purpose: Sets, description, the private member variable 
+ ***************************************************************/
 void Product::setDescription(string descriptionInput)
 {
     description = descriptionInput;
 }
 
+/***************************************************************
+ * GETBASEPRICE
+ * Purpose: Gets the value of basePrice, the private member
+ *          variable 
+ ***************************************************************/
 double Product::getBasePrice() const
 {
     return basePrice;
 }
+
+/***************************************************************
+ * SETBASEPRICE
+ * Purpose: Sets, basePrice, the private member variable 
+ ***************************************************************/
 void Product::setBasePrice(double basePriceInput)
 {
     basePrice = basePriceInput;
 }
 
+/***************************************************************
+ * GETWEIGHT
+ * Purpose: Gets the value of weight, the private member variable 
+ ***************************************************************/
 double Product::getWeight() const
 {
     return weight;
 }
+
+/***************************************************************
+ * SETWEIGHT
+ * Purpose: Sets, weight, the private member variable 
+ ***************************************************************/
 void Product::setWeight(double weightInput)
 {
     weight = weightInput;

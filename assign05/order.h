@@ -1,4 +1,8 @@
-// File: order.h
+/***************************************************************
+ * File: order.h
+ * Author: Gabriel Ikpaetuk
+ * Purpose: Contains the definition of the Order class
+ ***************************************************************/
 
 #ifndef ORDER_H
 #define ORDER_H
@@ -6,11 +10,15 @@
 #include "product.h"
 #include "customer.h"
 
-// Put your Order class here
 #include <iostream>  // class work
 #include <string>    // input output
 using namespace std; // standard use of libs
+// Put your Order class here
 
+/***************************************************************
+ * ORDER CLASS
+ * Purpose: Contains the necessary order details
+ ***************************************************************/
 class Order
 {
 private:
@@ -19,9 +27,11 @@ private:
     Customer customer;
 
 public:
+    //Constructors
     Order();
     Order(Product productInput, int quantityInput, Customer customerInput);
 
+    //Gets and sets Order class members
     Product getProduct() const;
     void setProduct(Product productInput);
 
@@ -35,6 +45,7 @@ public:
 
     double getTotalPrice() const;
 
+    //Functions handling display
     void displayShippingLabel() const;
 
     void displayInformation() const;

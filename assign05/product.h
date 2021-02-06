@@ -14,6 +14,10 @@
 #include <limits>    // To get numeric limits
 using namespace std; // standard use of libs
 
+/***************************************************************
+ * PRODUCT CLASS
+ * Purpose: Contains the necessary product details
+ ***************************************************************/
 class Product
 {
 
@@ -41,6 +45,7 @@ public:
     void displayInventory();
     void displayReceipt();
 
+    //Gets and sets the members value
     string getName() const;
     void setName(string nameInput);
 
