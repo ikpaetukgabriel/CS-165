@@ -16,24 +16,22 @@ using namespace std;
 int main()
 {
    cout << "Phone:\n";
-
    // TODO: Create your Phone object here and call its promptNumber method
-
+   Phone phone;
+   phone.promptNumber();
 
    cout << "\nPhone info:\n";
    // TODO: Call your Phone's display method here
-
-
+   phone.display();
 
    cout << "\nSmart phone:\n";
-   
    // TODO: Create your SmartPhone object here and call its prompt method
-   
+   SmartPhone smartPhone;
+   smartPhone.prompt();
 
    cout << "\nPhone info:\n";
    // TODO: Call your SmartHpone's display method here
-
-
+   smartPhone.display();
 
    return 0;
 }
