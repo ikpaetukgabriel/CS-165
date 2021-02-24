@@ -7,17 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F21B1CA025E0659A00D460C7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21B1C9F25E0659A00D460C7 /* OpenGL.framework */; };
-		F21B1CA225E065AF00D460C7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21B1CA125E065AF00D460C7 /* GLUT.framework */; };
-		F21B1CAB25E0675000D460C7 /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1CA525E0675000D460C7 /* uiInteract.cpp */; };
-		F21B1CAC25E0675000D460C7 /* uiTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1CA625E0675000D460C7 /* uiTest.cpp */; };
-		F21B1CAD25E0675000D460C7 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1CA825E0675000D460C7 /* point.cpp */; };
-		F21B1CAE25E0675000D460C7 /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1CA925E0675000D460C7 /* uiDraw.cpp */; };
-		F21B1CAF25E0675000D460C7 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = F21B1CAA25E0675000D460C7 /* makefile */; };
+		F21B1D7C25E08DF600D460C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1D7B25E08DF600D460C7 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F21B1C9225E0654800D460C7 /* CopyFiles */ = {
+		F21B1D7625E08DF600D460C7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -29,108 +23,80 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F21B1C9425E0654800D460C7 /* Project02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project02; sourceTree = BUILT_PRODUCTS_DIR; };
-		F21B1C9F25E0659A00D460C7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		F21B1CA125E065AF00D460C7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		F21B1CA325E0675000D460C7 /* uiDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uiDraw.h; path = ../../../gltest/uiTest/uiDraw.h; sourceTree = "<group>"; };
-		F21B1CA425E0675000D460C7 /* uiInteract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uiInteract.h; path = ../../../gltest/uiTest/uiInteract.h; sourceTree = "<group>"; };
-		F21B1CA525E0675000D460C7 /* uiInteract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uiInteract.cpp; path = ../../../gltest/uiTest/uiInteract.cpp; sourceTree = "<group>"; };
-		F21B1CA625E0675000D460C7 /* uiTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uiTest.cpp; path = ../../../gltest/uiTest/uiTest.cpp; sourceTree = "<group>"; };
-		F21B1CA725E0675000D460C7 /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = point.h; path = ../../../gltest/uiTest/point.h; sourceTree = "<group>"; };
-		F21B1CA825E0675000D460C7 /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = point.cpp; path = ../../../gltest/uiTest/point.cpp; sourceTree = "<group>"; };
-		F21B1CA925E0675000D460C7 /* uiDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uiDraw.cpp; path = ../../../gltest/uiTest/uiDraw.cpp; sourceTree = "<group>"; };
-		F21B1CAA25E0675000D460C7 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = makefile; path = ../../../gltest/uiTest/makefile; sourceTree = "<group>"; };
+		F21B1D7825E08DF600D460C7 /* moonLander */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = moonLander; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21B1D7B25E08DF600D460C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F21B1C9125E0654800D460C7 /* Frameworks */ = {
+		F21B1D7525E08DF600D460C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F21B1CA225E065AF00D460C7 /* GLUT.framework in Frameworks */,
-				F21B1CA025E0659A00D460C7 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F21B1C8B25E0654800D460C7 = {
+		F21B1D6F25E08DF600D460C7 = {
 			isa = PBXGroup;
 			children = (
-				F21B1C9625E0654800D460C7 /* Project02 */,
-				F21B1C9525E0654800D460C7 /* Products */,
-				F21B1C9E25E0659900D460C7 /* Frameworks */,
+				F21B1D7A25E08DF600D460C7 /* moonLander */,
+				F21B1D7925E08DF600D460C7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F21B1C9525E0654800D460C7 /* Products */ = {
+		F21B1D7925E08DF600D460C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F21B1C9425E0654800D460C7 /* Project02 */,
+				F21B1D7825E08DF600D460C7 /* moonLander */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F21B1C9625E0654800D460C7 /* Project02 */ = {
+		F21B1D7A25E08DF600D460C7 /* moonLander */ = {
 			isa = PBXGroup;
 			children = (
-				F21B1CAA25E0675000D460C7 /* makefile */,
-				F21B1CA825E0675000D460C7 /* point.cpp */,
-				F21B1CA725E0675000D460C7 /* point.h */,
-				F21B1CA925E0675000D460C7 /* uiDraw.cpp */,
-				F21B1CA325E0675000D460C7 /* uiDraw.h */,
-				F21B1CA525E0675000D460C7 /* uiInteract.cpp */,
-				F21B1CA425E0675000D460C7 /* uiInteract.h */,
-				F21B1CA625E0675000D460C7 /* uiTest.cpp */,
+				F21B1D7B25E08DF600D460C7 /* main.cpp */,
 			);
-			path = Project02;
-			sourceTree = "<group>";
-		};
-		F21B1C9E25E0659900D460C7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F21B1CA125E065AF00D460C7 /* GLUT.framework */,
-				F21B1C9F25E0659A00D460C7 /* OpenGL.framework */,
-			);
-			name = Frameworks;
+			path = moonLander;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F21B1C9325E0654800D460C7 /* Project02 */ = {
+		F21B1D7725E08DF600D460C7 /* moonLander */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F21B1C9B25E0654800D460C7 /* Build configuration list for PBXNativeTarget "Project02" */;
+			buildConfigurationList = F21B1D7F25E08DF600D460C7 /* Build configuration list for PBXNativeTarget "moonLander" */;
 			buildPhases = (
-				F21B1C9025E0654800D460C7 /* Sources */,
-				F21B1C9125E0654800D460C7 /* Frameworks */,
-				F21B1C9225E0654800D460C7 /* CopyFiles */,
+				F21B1D7425E08DF600D460C7 /* Sources */,
+				F21B1D7525E08DF600D460C7 /* Frameworks */,
+				F21B1D7625E08DF600D460C7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Project02;
-			productName = Project02;
-			productReference = F21B1C9425E0654800D460C7 /* Project02 */;
+			name = moonLander;
+			productName = moonLander;
+			productReference = F21B1D7825E08DF600D460C7 /* moonLander */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F21B1C8C25E0654800D460C7 /* Project object */ = {
+		F21B1D7025E08DF600D460C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Gabriel Ikpaetuk";
 				TargetAttributes = {
-					F21B1C9325E0654800D460C7 = {
+					F21B1D7725E08DF600D460C7 = {
 						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
-			buildConfigurationList = F21B1C8F25E0654800D460C7 /* Build configuration list for PBXProject "Project02" */;
+			buildConfigurationList = F21B1D7325E08DF600D460C7 /* Build configuration list for PBXProject "moonLander" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,33 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = F21B1C8B25E0654800D460C7;
-			productRefGroup = F21B1C9525E0654800D460C7 /* Products */;
+			mainGroup = F21B1D6F25E08DF600D460C7;
+			productRefGroup = F21B1D7925E08DF600D460C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F21B1C9325E0654800D460C7 /* Project02 */,
+				F21B1D7725E08DF600D460C7 /* moonLander */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F21B1C9025E0654800D460C7 /* Sources */ = {
+		F21B1D7425E08DF600D460C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F21B1CAE25E0675000D460C7 /* uiDraw.cpp in Sources */,
-				F21B1CAD25E0675000D460C7 /* point.cpp in Sources */,
-				F21B1CAF25E0675000D460C7 /* makefile in Sources */,
-				F21B1CAC25E0675000D460C7 /* uiTest.cpp in Sources */,
-				F21B1CAB25E0675000D460C7 /* uiInteract.cpp in Sources */,
+				F21B1D7C25E08DF600D460C7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F21B1C9925E0654800D460C7 /* Debug */ = {
+		F21B1D7D25E08DF600D460C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		F21B1C9A25E0654800D460C7 /* Release */ = {
+		F21B1D7E25E08DF600D460C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,7 +235,7 @@
 			};
 			name = Release;
 		};
-		F21B1C9C25E0654800D460C7 /* Debug */ = {
+		F21B1D8025E08DF600D460C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -283,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		F21B1C9D25E0654800D460C7 /* Release */ = {
+		F21B1D8125E08DF600D460C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -296,25 +258,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F21B1C8F25E0654800D460C7 /* Build configuration list for PBXProject "Project02" */ = {
+		F21B1D7325E08DF600D460C7 /* Build configuration list for PBXProject "moonLander" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F21B1C9925E0654800D460C7 /* Debug */,
-				F21B1C9A25E0654800D460C7 /* Release */,
+				F21B1D7D25E08DF600D460C7 /* Debug */,
+				F21B1D7E25E08DF600D460C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F21B1C9B25E0654800D460C7 /* Build configuration list for PBXNativeTarget "Project02" */ = {
+		F21B1D7F25E08DF600D460C7 /* Build configuration list for PBXNativeTarget "moonLander" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F21B1C9C25E0654800D460C7 /* Debug */,
-				F21B1C9D25E0654800D460C7 /* Release */,
+				F21B1D8025E08DF600D460C7 /* Debug */,
+				F21B1D8125E08DF600D460C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F21B1C8C25E0654800D460C7 /* Project object */;
+	rootObject = F21B1D7025E08DF600D460C7 /* Project object */;
 }

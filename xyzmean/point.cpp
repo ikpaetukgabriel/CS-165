@@ -17,8 +17,8 @@
  *****************************************/
 Point::Point(float x, float y) : x(0.0), y(0.0)
 {
-   setX(x);
-   setY(y);
+    setX(x);
+    setY(y);
 }
 
 /*******************************************
@@ -27,7 +27,7 @@ Point::Point(float x, float y) : x(0.0), y(0.0)
  *******************************************/
 void Point::setX(float x)
 {
-   this->x = x;
+    this->x = x;
 }
 
 /*******************************************
@@ -36,32 +36,31 @@ void Point::setX(float x)
  *******************************************/
 void Point::setY(float y)
 {
-   this->y = y;
-} 
+    this->y = y;
+}
 
 /******************************************
  * POINT insertion
  *       Display coordinates on the screen
  *****************************************/
-std::ostream & operator << (std::ostream & out, const Point & pt)
+std::ostream &operator<<(std::ostream &out, const Point &pt)
 {
-   out << "(" << pt.getX() << ", " << pt.getY() << ")";
-   return out;
+    out << "(" << pt.getX() << ", " << pt.getY() << ")";
+    return out;
 }
 
 /*******************************************
  * POINT extraction
  *       Prompt for coordinates
  ******************************************/
-std::istream & operator >> (std::istream & in, Point & pt)
+std::istream &operator>>(std::istream &in, Point &pt)
 {
-   float x;
-   float y;
-   in >> x >> y;
+    float x;
+    float y;
+    in >> x >> y;
 
-   pt.setX(x);
-   pt.setY(y);
+    pt.setX(x);
+    pt.setY(y);
 
-   return in;
+    return in;
 }
-   

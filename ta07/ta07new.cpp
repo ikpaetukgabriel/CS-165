@@ -19,19 +19,11 @@ float *getMinValue(float *a, float *b)
 }
 
 // Stretch goals
-void swapElements(float *theArray[], int a, int b)
-{
-
-   cout << *theArray[a] << "kkk" << endl;
-   cout << theArray[a] << "kkk" << endl;
-   cout << *theArray[b] << "kkk" << endl;
-}
-
+void swapElements(float *theArray[], int a, int b);
 void sortArray(float *theArray[]);
 
 int main()
 {
-   /*
    // Core Requirement 1
    int arraySize;
    cout << "Enter the array size: ";
@@ -61,35 +53,7 @@ int main()
    cout << *pointerToMin;
 
    // Clean up your array(s) here
+
    delete[] pArray;
-   */
-
-   // Stretch Challenge
-   int newArraySize;
-   cout << "Enter the new array size: ";
-   cin >> newArraySize;
-
-   float **pNewArray = new float *[newArraySize];
-
-   for (int i = 0; i < newArraySize; i++)
-   {
-      float floatInput;
-      float *ptrInput;
-
-      cout << "Enter a float value: ";
-      cin >> floatInput;
-
-      ptrInput = &floatInput;
-      pNewArray[i] = ptrInput;
-
-      cout << pNewArray[i] << endl;
-   }
-
-   //swapElements(pNewArray, 0, newArraySize - 1);
-
-   for (int i = 0; i < newArraySize; i++)
-   {
-      // cout << pNewArray[i] << endl;
-   }
    return 0;
 }

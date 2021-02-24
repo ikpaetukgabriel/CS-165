@@ -17,7 +17,7 @@
 #ifndef UI_INTERFACE_H
 #define UI_INTERFACE_H
 
- #include "point.h"
+#include "point.h"
 
 /********************************************
  * INTERFACE
@@ -27,68 +27,66 @@
 class Interface
 {
 public:
-   // Default constructor useful for setting up the random variables
-   // or for opening the file for output
-   Interface() { initialize(0, 0x0000, "Window", Point(-50, 50), Point(50, -50)); };
+    // Default constructor useful for setting up the random variables
+    // or for opening the file for output
+    Interface() { initialize(0, 0x0000, "Window", Point(-50, 50), Point(50, -50)); };
 
-   // Constructor if you want to set up the window with anything but
-   // the default parameters
-   Interface(int argc, char ** argv, const char * title, Point topLeft, Point bottomRight)
-   {
-      initialize(argc, argv, title, topLeft, bottomRight);
-   }
-   
-   // Destructor, incase any housecleaning needs to occr
-   ~Interface();
+    // Constructor if you want to set up the window with anything but
+    // the default parameters
+    Interface(int argc, char **argv, const char *title, Point topLeft, Point bottomRight)
+    {
+        initialize(argc, argv, title, topLeft, bottomRight);
+    }
 
-   // This will set the game in motion
-   void run(void (*callBack)(const Interface *, void *), void *p);
+    // Destructor, incase any housecleaning needs to occr
+    ~Interface();
 
-   // Is it time to redraw the screen
-   bool isTimeToDraw();
+    // This will set the game in motion
+    void run(void (*callBack)(const Interface *, void *), void *p);
 
-   // Set the next draw time based on current time and time period
-   void setNextDrawTime();
+    // Is it time to redraw the screen
+    bool isTimeToDraw();
 
-   // Retrieve the next tick time... the time of the next draw.
-   unsigned int getNextTick() { return nextTick; };
+    // Set the next draw time based on current time and time period
+    void setNextDrawTime();
 
-   // How many frames per second are we configured for?
-   void setFramesPerSecond(double value);
-   
-   // Key event indicating a key has been pressed or not.  The callbacks
-   // should be the only onces to call this
-   void keyEvent(int key, bool fDown);
-   void keyEvent();
+    // Retrieve the next tick time... the time of the next draw.
+    unsigned int getNextTick() { return nextTick; };
 
-   // Current frame rate
-   double frameRate() const { return timePeriod;   };
-   
-   // Get various key events
-   int  isDown()      const { return isDownPress;  };
-   int  isUp()        const { return isUpPress;    };
-   int  isLeft()      const { return isLeftPress;  };
-   int  isRight()     const { return isRightPress; };
-   bool isSpace()     const { return isSpacePress; };
-   
-   static void *p;                   // for client
-   static void (*callBack)(const Interface *, void *);
+    // How many frames per second are we configured for?
+    void setFramesPerSecond(double value);
+
+    // Key event indicating a key has been pressed or not.  The callbacks
+    // should be the only onces to call this
+    void keyEvent(int key, bool fDown);
+    void keyEvent();
+
+    // Current frame rate
+    double frameRate() const { return timePeriod; };
+
+    // Get various key events
+    int isDown() const { return isDownPress; };
+    int isUp() const { return isUpPress; };
+    int isLeft() const { return isLeftPress; };
+    int isRight() const { return isRightPress; };
+    bool isSpace() const { return isSpacePress; };
+
+    static void *p; // for client
+    static void (*callBack)(const Interface *, void *);
 
 private:
-   void initialize(int argc, char ** argv, const char * title, Point topLeft, Point bottomRight);
+    void initialize(int argc, char **argv, const char *title, Point topLeft, Point bottomRight);
 
-   static bool         initialized;  // only run the constructor once!
-   static double       timePeriod;   // interval between frame draws
-   static unsigned int nextTick;     // time (from clock()) of our next draw
+    static bool initialized;      // only run the constructor once!
+    static double timePeriod;     // interval between frame draws
+    static unsigned int nextTick; // time (from clock()) of our next draw
 
-   static int  isDownPress;          // is the down arrow currently pressed?
-   static int  isUpPress;            //    "   up         "
-   static int  isLeftPress;          //    "   left       "
-   static int  isRightPress;         //    "   right      "
-   static bool isSpacePress;         //    "   space      "
+    static int isDownPress;   // is the down arrow currently pressed?
+    static int isUpPress;     //    "   up         "
+    static int isLeftPress;   //    "   left       "
+    static int isRightPress;  //    "   right      "
+    static bool isSpacePress; //    "   space      "
 };
-
-
 
 /************************************************************************
  * DRAW CALLBACK
