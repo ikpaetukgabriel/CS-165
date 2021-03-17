@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21C20F225F6967F00F86FAC /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C20E825F6967E00F86FAC /* point.cpp */; };
+		F21C20F325F6967F00F86FAC /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C20E925F6967E00F86FAC /* game.cpp */; };
+		F21C20F425F6967F00F86FAC /* rifle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C20EA25F6967E00F86FAC /* rifle.cpp */; };
+		F21C20F525F6967F00F86FAC /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C20EE25F6967F00F86FAC /* uiInteract.cpp */; };
+		F21C20F625F6967F00F86FAC /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C20EF25F6967F00F86FAC /* uiDraw.cpp */; };
+		F21C20F725F6967F00F86FAC /* driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C20F025F6967F00F86FAC /* driver.cpp */; };
+		F21C20F825F6967F00F86FAC /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = F21C20F125F6967F00F86FAC /* makefile */; };
+		F21C210A25F69D4C00F86FAC /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C210925F69D4C00F86FAC /* velocity.cpp */; };
+		F21C211125F6A1A400F86FAC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21C211025F6A1A400F86FAC /* OpenGL.framework */; };
+		F21C211325F6A1AA00F86FAC /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21C211225F6A1AA00F86FAC /* GLUT.framework */; };
+		F21C211925F6A53600F86FAC /* bird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C211825F6A53600F86FAC /* bird.cpp */; };
+		F21C212125F6AEE300F86FAC /* sacredBird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C212025F6AEE300F86FAC /* sacredBird.cpp */; };
+		F21C212625F6AFF900F86FAC /* toughBird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C212525F6AFF900F86FAC /* toughBird.cpp */; };
+		F21C212B25F6B2AA00F86FAC /* bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C212A25F6B2AA00F86FAC /* bullet.cpp */; };
+		F21C212F25F6B3C100F86FAC /* flyingObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21C212E25F6B3C100F86FAC /* flyingObject.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F21C20D925F6963800F86FAC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F21C20DB25F6963800F86FAC /* SKEET */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = SKEET; path = /Users/gabrielikpaetuk/Desktop/CS165/SKEET/build/Debug/SKEET; sourceTree = "<absolute>"; };
+		F21C20E625F6967E00F86FAC /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = game.h; path = ../../skeetxyz/game.h; sourceTree = "<group>"; };
+		F21C20E725F6967E00F86FAC /* uiInteract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uiInteract.h; path = ../../skeetxyz/uiInteract.h; sourceTree = "<group>"; };
+		F21C20E825F6967E00F86FAC /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = point.cpp; path = ../../skeetxyz/point.cpp; sourceTree = "<group>"; };
+		F21C20E925F6967E00F86FAC /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = game.cpp; path = ../../skeetxyz/game.cpp; sourceTree = "<group>"; };
+		F21C20EA25F6967E00F86FAC /* rifle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rifle.cpp; path = ../../skeetxyz/rifle.cpp; sourceTree = "<group>"; };
+		F21C20EB25F6967E00F86FAC /* uiDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uiDraw.h; path = ../../skeetxyz/uiDraw.h; sourceTree = "<group>"; };
+		F21C20EC25F6967E00F86FAC /* rifle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rifle.h; path = ../../skeetxyz/rifle.h; sourceTree = "<group>"; };
+		F21C20ED25F6967E00F86FAC /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = point.h; path = ../../skeetxyz/point.h; sourceTree = "<group>"; };
+		F21C20EE25F6967F00F86FAC /* uiInteract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uiInteract.cpp; path = ../../skeetxyz/uiInteract.cpp; sourceTree = "<group>"; };
+		F21C20EF25F6967F00F86FAC /* uiDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uiDraw.cpp; path = ../../skeetxyz/uiDraw.cpp; sourceTree = "<group>"; };
+		F21C20F025F6967F00F86FAC /* driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = driver.cpp; path = ../../skeetxyz/driver.cpp; sourceTree = "<group>"; };
+		F21C20F125F6967F00F86FAC /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = makefile; path = ../../skeetxyz/makefile; sourceTree = "<group>"; };
+		F21C210925F69D4C00F86FAC /* velocity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = velocity.cpp; sourceTree = "<group>"; };
+		F21C210D25F69D5D00F86FAC /* velocity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = velocity.h; sourceTree = "<group>"; };
+		F21C211025F6A1A400F86FAC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F21C211225F6A1AA00F86FAC /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F21C211825F6A53600F86FAC /* bird.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bird.cpp; sourceTree = "<group>"; };
+		F21C211B25F6A56700F86FAC /* bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bird.h; sourceTree = "<group>"; };
+		F21C212025F6AEE300F86FAC /* sacredBird.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sacredBird.cpp; sourceTree = "<group>"; };
+		F21C212325F6AF0C00F86FAC /* sacredBird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sacredBird.h; sourceTree = "<group>"; };
+		F21C212525F6AFF900F86FAC /* toughBird.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = toughBird.cpp; sourceTree = "<group>"; };
+		F21C212825F6B01500F86FAC /* toughBird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = toughBird.h; sourceTree = "<group>"; };
+		F21C212925F6B28D00F86FAC /* bullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bullet.h; sourceTree = "<group>"; };
+		F21C212A25F6B2AA00F86FAC /* bullet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bullet.cpp; sourceTree = "<group>"; };
+		F21C212E25F6B3C100F86FAC /* flyingObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flyingObject.cpp; sourceTree = "<group>"; };
+		F21C213125F6B3DC00F86FAC /* flyingObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flyingObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21C20D825F6963800F86FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21C211325F6A1AA00F86FAC /* GLUT.framework in Frameworks */,
+				F21C211125F6A1A400F86FAC /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F21C20D225F6963800F86FAC = {
+			isa = PBXGroup;
+			children = (
+				F21C20DD25F6963800F86FAC /* SKEET */,
+				F21C210F25F6A1A400F86FAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F21C20DD25F6963800F86FAC /* SKEET */ = {
+			isa = PBXGroup;
+			children = (
+				F21C20F025F6967F00F86FAC /* driver.cpp */,
+				F21C20E925F6967E00F86FAC /* game.cpp */,
+				F21C20E625F6967E00F86FAC /* game.h */,
+				F21C20F125F6967F00F86FAC /* makefile */,
+				F21C20E825F6967E00F86FAC /* point.cpp */,
+				F21C20ED25F6967E00F86FAC /* point.h */,
+				F21C20EA25F6967E00F86FAC /* rifle.cpp */,
+				F21C20EC25F6967E00F86FAC /* rifle.h */,
+				F21C20EF25F6967F00F86FAC /* uiDraw.cpp */,
+				F21C20EB25F6967E00F86FAC /* uiDraw.h */,
+				F21C20EE25F6967F00F86FAC /* uiInteract.cpp */,
+				F21C20E725F6967E00F86FAC /* uiInteract.h */,
+				F21C210925F69D4C00F86FAC /* velocity.cpp */,
+				F21C210D25F69D5D00F86FAC /* velocity.h */,
+				F21C211825F6A53600F86FAC /* bird.cpp */,
+				F21C211B25F6A56700F86FAC /* bird.h */,
+				F21C212025F6AEE300F86FAC /* sacredBird.cpp */,
+				F21C212325F6AF0C00F86FAC /* sacredBird.h */,
+				F21C212525F6AFF900F86FAC /* toughBird.cpp */,
+				F21C212825F6B01500F86FAC /* toughBird.h */,
+				F21C212925F6B28D00F86FAC /* bullet.h */,
+				F21C212A25F6B2AA00F86FAC /* bullet.cpp */,
+				F21C212E25F6B3C100F86FAC /* flyingObject.cpp */,
+				F21C213125F6B3DC00F86FAC /* flyingObject.h */,
+			);
+			path = SKEET;
+			sourceTree = "<group>";
+		};
+		F21C210F25F6A1A400F86FAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21C211225F6A1AA00F86FAC /* GLUT.framework */,
+				F21C211025F6A1A400F86FAC /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F21C20DA25F6963800F86FAC /* SKEET */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21C20E225F6963900F86FAC /* Build configuration list for PBXNativeTarget "SKEET" */;
+			buildPhases = (
+				F21C20D725F6963800F86FAC /* Sources */,
+				F21C20D825F6963800F86FAC /* Frameworks */,
+				F21C20D925F6963800F86FAC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKEET;
+			productName = SKEET;
+			productReference = F21C20DB25F6963800F86FAC /* SKEET */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21C20D325F6963800F86FAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F21C20DA25F6963800F86FAC = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = F21C20D625F6963800F86FAC /* Build configuration list for PBXProject "SKEET" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F21C20D225F6963800F86FAC;
+			productRefGroup = F21C20D225F6963800F86FAC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21C20DA25F6963800F86FAC /* SKEET */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21C20D725F6963800F86FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21C20F525F6967F00F86FAC /* uiInteract.cpp in Sources */,
+				F21C20F425F6967F00F86FAC /* rifle.cpp in Sources */,
+				F21C211925F6A53600F86FAC /* bird.cpp in Sources */,
+				F21C20F725F6967F00F86FAC /* driver.cpp in Sources */,
+				F21C20F225F6967F00F86FAC /* point.cpp in Sources */,
+				F21C212125F6AEE300F86FAC /* sacredBird.cpp in Sources */,
+				F21C210A25F69D4C00F86FAC /* velocity.cpp in Sources */,
+				F21C20F325F6967F00F86FAC /* game.cpp in Sources */,
+				F21C20F825F6967F00F86FAC /* makefile in Sources */,
+				F21C212625F6AFF900F86FAC /* toughBird.cpp in Sources */,
+				F21C20F625F6967F00F86FAC /* uiDraw.cpp in Sources */,
+				F21C212B25F6B2AA00F86FAC /* bullet.cpp in Sources */,
+				F21C212F25F6B3C100F86FAC /* flyingObject.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F21C20E025F6963900F86FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F21C20E125F6963900F86FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F21C20E325F6963900F86FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QHZ46BCAF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F21C20E425F6963900F86FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QHZ46BCAF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21C20D625F6963800F86FAC /* Build configuration list for PBXProject "SKEET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21C20E025F6963900F86FAC /* Debug */,
+				F21C20E125F6963900F86FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21C20E225F6963900F86FAC /* Build configuration list for PBXNativeTarget "SKEET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21C20E325F6963900F86FAC /* Debug */,
+				F21C20E425F6963900F86FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F21C20D325F6963800F86FAC /* Project object */;
+}

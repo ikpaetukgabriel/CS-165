@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F21B1D7C25E08DF600D460C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1D7B25E08DF600D460C7 /* main.cpp */; };
+		F21B1D8425E08E0400D460C7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21B1D8325E08E0400D460C7 /* OpenGL.framework */; };
+		F21B1D8625E08E0900D460C7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21B1D8525E08E0900D460C7 /* GLUT.framework */; };
+		F21B1D9725E08E3500D460C7 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1D8A25E08E3400D460C7 /* point.cpp */; };
+		F21B1D9825E08E3500D460C7 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1D8B25E08E3400D460C7 /* game.cpp */; };
+		F21B1D9925E08E3500D460C7 /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1D8E25E08E3400D460C7 /* uiDraw.cpp */; };
+		F21B1D9A25E08E3500D460C7 /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1D8F25E08E3400D460C7 /* velocity.cpp */; };
+		F21B1D9B25E08E3500D460C7 /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1D9125E08E3400D460C7 /* uiInteract.cpp */; };
+		F21B1D9C25E08E3500D460C7 /* driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1D9325E08E3400D460C7 /* driver.cpp */; };
+		F21B1D9D25E08E3500D460C7 /* lander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1D9425E08E3400D460C7 /* lander.cpp */; };
+		F21B1D9E25E08E3500D460C7 /* ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21B1D9525E08E3400D460C7 /* ground.cpp */; };
+		F21B1D9F25E08E3500D460C7 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = F21B1D9625E08E3400D460C7 /* makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,24 @@
 /* Begin PBXFileReference section */
 		F21B1D7825E08DF600D460C7 /* moonLander */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = moonLander; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21B1D7B25E08DF600D460C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F21B1D8325E08E0400D460C7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F21B1D8525E08E0900D460C7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F21B1D8725E08E3400D460C7 /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = point.h; path = ../../../xyzmean/point.h; sourceTree = "<group>"; };
+		F21B1D8825E08E3400D460C7 /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = game.h; path = ../../../xyzmean/game.h; sourceTree = "<group>"; };
+		F21B1D8925E08E3400D460C7 /* uiInteract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uiInteract.h; path = ../../../xyzmean/uiInteract.h; sourceTree = "<group>"; };
+		F21B1D8A25E08E3400D460C7 /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = point.cpp; path = ../../../xyzmean/point.cpp; sourceTree = "<group>"; };
+		F21B1D8B25E08E3400D460C7 /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = game.cpp; path = ../../../xyzmean/game.cpp; sourceTree = "<group>"; };
+		F21B1D8C25E08E3400D460C7 /* uiDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uiDraw.h; path = ../../../xyzmean/uiDraw.h; sourceTree = "<group>"; };
+		F21B1D8D25E08E3400D460C7 /* lander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lander.h; path = ../../../xyzmean/lander.h; sourceTree = "<group>"; };
+		F21B1D8E25E08E3400D460C7 /* uiDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uiDraw.cpp; path = ../../../xyzmean/uiDraw.cpp; sourceTree = "<group>"; };
+		F21B1D8F25E08E3400D460C7 /* velocity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = velocity.cpp; path = ../../../xyzmean/velocity.cpp; sourceTree = "<group>"; };
+		F21B1D9025E08E3400D460C7 /* velocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = velocity.h; path = ../../../xyzmean/velocity.h; sourceTree = "<group>"; };
+		F21B1D9125E08E3400D460C7 /* uiInteract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uiInteract.cpp; path = ../../../xyzmean/uiInteract.cpp; sourceTree = "<group>"; };
+		F21B1D9225E08E3400D460C7 /* ground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ground.h; path = ../../../xyzmean/ground.h; sourceTree = "<group>"; };
+		F21B1D9325E08E3400D460C7 /* driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = driver.cpp; path = ../../../xyzmean/driver.cpp; sourceTree = "<group>"; };
+		F21B1D9425E08E3400D460C7 /* lander.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lander.cpp; path = ../../../xyzmean/lander.cpp; sourceTree = "<group>"; };
+		F21B1D9525E08E3400D460C7 /* ground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ground.cpp; path = ../../../xyzmean/ground.cpp; sourceTree = "<group>"; };
+		F21B1D9625E08E3400D460C7 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = makefile; path = ../../../xyzmean/makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21B1D8625E08E0900D460C7 /* GLUT.framework in Frameworks */,
+				F21B1D8425E08E0400D460C7 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +74,7 @@
 			children = (
 				F21B1D7A25E08DF600D460C7 /* moonLander */,
 				F21B1D7925E08DF600D460C7 /* Products */,
+				F21B1D8225E08E0300D460C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +89,34 @@
 		F21B1D7A25E08DF600D460C7 /* moonLander */ = {
 			isa = PBXGroup;
 			children = (
+				F21B1D9325E08E3400D460C7 /* driver.cpp */,
+				F21B1D8B25E08E3400D460C7 /* game.cpp */,
+				F21B1D8825E08E3400D460C7 /* game.h */,
+				F21B1D9525E08E3400D460C7 /* ground.cpp */,
+				F21B1D9225E08E3400D460C7 /* ground.h */,
+				F21B1D9425E08E3400D460C7 /* lander.cpp */,
+				F21B1D8D25E08E3400D460C7 /* lander.h */,
+				F21B1D9625E08E3400D460C7 /* makefile */,
+				F21B1D8A25E08E3400D460C7 /* point.cpp */,
+				F21B1D8725E08E3400D460C7 /* point.h */,
+				F21B1D8E25E08E3400D460C7 /* uiDraw.cpp */,
+				F21B1D8C25E08E3400D460C7 /* uiDraw.h */,
+				F21B1D9125E08E3400D460C7 /* uiInteract.cpp */,
+				F21B1D8925E08E3400D460C7 /* uiInteract.h */,
+				F21B1D8F25E08E3400D460C7 /* velocity.cpp */,
+				F21B1D9025E08E3400D460C7 /* velocity.h */,
 				F21B1D7B25E08DF600D460C7 /* main.cpp */,
 			);
 			path = moonLander;
+			sourceTree = "<group>";
+		};
+		F21B1D8225E08E0300D460C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21B1D8525E08E0900D460C7 /* GLUT.framework */,
+				F21B1D8325E08E0400D460C7 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +176,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21B1D9E25E08E3500D460C7 /* ground.cpp in Sources */,
+				F21B1D9725E08E3500D460C7 /* point.cpp in Sources */,
+				F21B1D9D25E08E3500D460C7 /* lander.cpp in Sources */,
+				F21B1D9A25E08E3500D460C7 /* velocity.cpp in Sources */,
+				F21B1D9F25E08E3500D460C7 /* makefile in Sources */,
+				F21B1D9C25E08E3500D460C7 /* driver.cpp in Sources */,
 				F21B1D7C25E08DF600D460C7 /* main.cpp in Sources */,
+				F21B1D9825E08E3500D460C7 /* game.cpp in Sources */,
+				F21B1D9925E08E3500D460C7 /* uiDraw.cpp in Sources */,
+				F21B1D9B25E08E3500D460C7 /* uiInteract.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
