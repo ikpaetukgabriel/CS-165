@@ -1,9 +1,9 @@
 ###############################################################
 # Program:
 #     Checkpoint 11b, Class Templates
-#     Brother {Burton, Falin, Ercanbrack}, CS165
+#     Brother Alvey, CS165
 # Author:
-#     your name here
+#     Gabriel Ikpaetuk
 # Summary:
 #     Summaries are not necessary for checkpoint assignments.
 ###############################################################
